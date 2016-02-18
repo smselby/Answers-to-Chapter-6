@@ -2,3 +2,46 @@ asshat = 'Bu-by and don\'t forget to say hi to Bob\'s mother who sews socks in h
 
 
 print("Hello there!\nHow are you?\nNone of your fucking buisness, however I\'m doing fine.\nWhy are you asking?") 
+
+
+print('''Dear Alice,
+Eve's cat has been arrested for catnapping, cat burglary, and extortion.
+Sincerely, Bob''')
+
+
+print('''Dear GOP,
+You have all jumped the shark, in your self aggrandize,
+narcissistic, megalomaniac, self serving view of the world,
+We the actual human beings sincerely request you take a long
+walk off a very steep cliff. Know in so doing you will actually
+make this world a better place.
+Sincerely, The rest of the Humanity''''')
+
+
+print('How are you?')
+feeling = input()
+if feeling.lower() == 'great':
+        print('I feel great too.')
+else:
+        print('I hope the rest of your day is good.')
+
+while True:
+    print('Enter your age:')
+    age = input()
+    if age.isdecimal():
+        break
+    print('Please enter a number for your age.')
+while True:
+    print('Select a new password (letters and numbers only):')
+    password = input()
+    if password.isalnum():
+        break
+    print('Passwords can only have letters and numbers.')
+
+
+
+
+spam = 'Hello world!'
+spam = spam.upper()
+spam = spam.lower()
+
